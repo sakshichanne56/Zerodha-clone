@@ -12,7 +12,7 @@ function Login() {
         try {
 
             const response = await fetch(
-                "http://localhost:3002/login",
+                `${process.env.REACT_APP_API_URL}/login`,
                 {
                     method: "POST",
 
@@ -49,9 +49,10 @@ function Login() {
                     data.token
                 );
 
-                // Open dashboard
-                window.location.href =
-                    "http://localhost:3001/";
+               // Go to dashboard
+            window.location.href =
+                process.env.REACT_APP_DASHBOARD_URL;
+
 
             } else {
 
