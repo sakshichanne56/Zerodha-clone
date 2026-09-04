@@ -12,7 +12,7 @@ function Signup() {
 
         try {
 
-            const response = await fetch("http://zerodha-clone-ia7t.onrender.com/signup", {
+            const response = await fetch(`${process.env.REACT_APP_API_URL}/signup`, {
                 method: "POST",
 
                 headers: {
