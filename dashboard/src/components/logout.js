@@ -10,7 +10,9 @@ function Logout() {
 
         // Go back to frontend login page
         window.location.href =
-            "http://localhost:3000/login";
+            "https://zerodha-clone-1-wp2c.onrender.com/login";
+
+
     };
 
     return (
