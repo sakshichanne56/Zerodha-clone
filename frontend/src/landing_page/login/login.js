@@ -51,7 +51,7 @@ function Login() {
 
                // Go to dashboard
             window.location.href =
-                "https://zerodha-clone-2-7k55.onrender.com/login";
+                process.env.REACT_APP_DASHBOARD_URL;
 
 
             } else {
