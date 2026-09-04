@@ -12,7 +12,7 @@ function Signup() {
 
         try {
 
-            const response = await fetch("http://localhost:3002/signup", {
+            const response = await fetch("http://zerodha-clone-ia7t.onrender.com/signup", {
                 method: "POST",
 
                 headers: {
