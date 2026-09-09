@@ -51,7 +51,7 @@ function Login() {
 
                // Go to dashboard
             window.location.href =
-               "https://zerodha-clone-2-7k55.onrender.com"+
+               "https://zerodha-clone-2-7k55.onrender.com/"+
     encodeURIComponent(data.username);;
 
 
