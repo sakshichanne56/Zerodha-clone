@@ -21,7 +21,7 @@ const Menu = () => {
     localStorage.removeItem("token");
 
     // Go back to login page
-    window.location.href = "http://localhost:3000/login";
+    window.location.href =   "https://zerodha-clone-1-wp2c.onrender.com/login";
   };
 
   const menuClass = "menu";
